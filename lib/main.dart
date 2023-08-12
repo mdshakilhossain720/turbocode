@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'homepage.dart';
+
+import 'view.dart';
 
 
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: ViewPage(),
     );
   }
 }
